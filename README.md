@@ -2,6 +2,7 @@
 <p align="center">
  
    <img src="readme/desktop.png" width="380" height="600">
+   <img src="readme/mobile.png" width="380" height="600">
 
 
   <h3 align="center">selfcare</h3>
