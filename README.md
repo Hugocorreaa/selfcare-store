@@ -10,9 +10,9 @@
     Crie uma página para exibição de produtos
        <br />
     <br />
-    <a href="https://github.com/thaysagomes/selfcare">Desafio</a>
+    <a href="https://github.com/thaysagomes/selfcare">Original</a>
     ·
-    <a href="https://www.linkedin.com/in/tcgms/">Contato</a>
+    <a href="https://www.linkedin.com/in/tcgms/">Contato da criadora</a>
   </p>
 </p>
 
