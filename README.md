@@ -27,9 +27,9 @@ Seu desafio será construir uma página para exibição de produtos de uma loja 
 # Techs: 
 HTML<br>
 CSS<br>
-Framework ou linguagem que preferir
+SASS
 
-# Como começar:
+# Instruções:
 1 - Use esse template (clicando em Use this template) ou faça um fork deste repositório com o código inicial<br>
 2 - Leia as instruções no readme.md<br>
 3 - Comece a codar!<br>
