@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+// ======= Header =======
+header{
+    display: flex;
+    flex-direction: column;
+    // === navbar === 
+    nav{
+        display: flex;
+        justify-content: flex-end;
+
+        padding: 1.8rem 1.6rem;
+        // == links ==
+        a{
+            margin-right: 4%;
+        }
+    }
+}
+
+// ======= Corpo =======
+#corpo{
+    // ==== div produtos ==== 
+    #produtos{
+        border: 1px solid green;
+
+        display: flex;
+        flex-direction: column;
+
+        #promo-quant{
+            display: flex;
+            justify-content: space-between;
+            padding: 33px 2rem 28px;
+            #promo{
+                font-size: 1.2rem;
+                font-weight: bold;
+            }
+
+            #quant{
+                font-size: 1.1rem;
+                font-weight: 21.6px;
+            }
+
+        }
+    }
+    // == Cards de produtos ==
+    #cardsproducts{
+        border: 1px solid red;
+
+        padding: 57px 1rem 65px 4.37rem;
+    
+        display: flex;
+        flex-wrap: wrap;
+
+        width: 100vw;
+
+        .card{
+            border: 1px solid red;
+            padding: 0 3rem 4.063rem  5rem;
+            
+            
+        }
+    }
+}
