@@ -1,7 +1,7 @@
 <br />
 <p align="center">
  
-   <img src="design/desktop.png" width="380" height="600">
+   <img src="readme/desktop.png" width="380" height="600">
 
 
   <h3 align="center">selfcare</h3>
