@@ -27,6 +27,7 @@ a{
 }
 
 body {
+    color: #161616;
     font-family: "Lato", sans-serif;
 }
 
@@ -104,6 +105,10 @@ header {
 
 footer{
     background-color:#F9F9F9;
+    border-top: 1px solid #A5A1A1;
+
+    border: 1px solid red;
+
 
     height: 348px;
 
@@ -112,17 +117,14 @@ footer{
 
     padding: 3rem;
 
-    hr{
-
-        margin-top: 3rem;
-        
-    }
     #first-footer{
         display: flex;
+        flex-wrap: wrap;
         justify-content: space-between;
 
-        #footer-links{
+        border: 1px solid green;
 
+        #footer-links{
             p{
                 padding-bottom: 0.5rem;
             }
@@ -169,6 +171,16 @@ footer{
                 }
             }
         }
+    }
+
+    #hr{
+        border: 1px solid red;
+        padding: ;
+    }
+
+    #second-footer{
+        display: flex;
+        justify-content: space-between;
     }
 
 }

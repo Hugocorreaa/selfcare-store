@@ -9,6 +9,7 @@ a {
 }
 
 body {
+  color: #161616;
   font-family: "Lato", sans-serif;
 }
 
@@ -101,20 +102,20 @@ header nav a {
 
 footer {
   background-color: #F9F9F9;
+  border-top: 1px solid #A5A1A1;
+  border: 1px solid red;
   height: 348px;
   font-size: 1.25rem;
   font-weight: 600;
   padding: 3rem;
 }
 
-footer hr {
-  margin-top: 3rem;
-}
-
 footer #first-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -157,5 +158,19 @@ footer #first-footer #newsletter #email button {
   height: 53px;
   width: 9.5rem;
   text-align: center;
+}
+
+footer #hr {
+  border: 1px solid red;
+  padding: -3rem;
+}
+
+footer #second-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=main.css.map */
