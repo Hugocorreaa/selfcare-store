@@ -54,7 +54,7 @@ header nav a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 33px 2rem 28px;
+  padding: 30px 2rem 28px;
 }
 
 #corpo #produtos #promo-quant #promo {
@@ -68,8 +68,7 @@ header nav a {
 }
 
 #corpo #cardsproducts {
-  padding: 57px 0 65px 0;
-  margin: 0 1.4rem 0;
+  padding: 57px 0 4.063rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -103,14 +102,16 @@ header nav a {
 footer {
   background-color: #F9F9F9;
   border-top: 1px solid #A5A1A1;
-  border: 1px solid red;
-  height: 348px;
+  height: 21.75rem;
   font-size: 1.25rem;
   font-weight: 600;
-  padding: 3rem;
 }
 
-footer #first-footer {
+footer #hr-container {
+  border-bottom: 1px solid gray;
+}
+
+footer #hr-container #first-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -119,28 +120,46 @@ footer #first-footer {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding: 3rem;
 }
 
-footer #first-footer #footer-links p {
+footer #hr-container #first-footer #footer-links p {
   padding-bottom: 0.5rem;
 }
 
-footer #first-footer #newsletter {
+footer #hr-container #first-footer #newsletter {
   padding-right: 1rem;
 }
 
-footer #first-footer #newsletter p {
+@media (max-width: 844px) {
+  footer #hr-container #first-footer #newsletter {
+    margin-top: 50px;
+  }
+}
+
+footer #hr-container #first-footer #newsletter p {
   padding-bottom: 1rem;
 }
 
-footer #first-footer #newsletter #email {
+footer #hr-container #first-footer #newsletter #email-botton {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-footer #first-footer #newsletter #email input {
-  width: 20rem;
+@media (max-width: 844px) {
+  footer #hr-container #first-footer #newsletter #email-botton {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 10rem;
+    width: 100%;
+  }
+}
+
+footer #hr-container #first-footer #newsletter #email-botton input {
+  width: 80%;
   height: 3.2rem;
   border: 1px solid rgba(0, 0, 0, 0.322);
   border-radius: 3px 0 0 3px;
@@ -148,7 +167,15 @@ footer #first-footer #newsletter #email input {
   padding-left: 1rem;
 }
 
-footer #first-footer #newsletter #email button {
+@media (max-width: 844px) {
+  footer #hr-container #first-footer #newsletter #email-botton input {
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+}
+
+footer #hr-container #first-footer #newsletter #email-botton button {
   background-color: #5CA720;
   border: none;
   border-radius: 0 3px 2px 0;
@@ -156,13 +183,15 @@ footer #first-footer #newsletter #email button {
   font-size: 1.5rem;
   font-weight: 800;
   height: 53px;
-  width: 9.5rem;
+  width: 40%;
   text-align: center;
 }
 
-footer #hr {
-  border: 1px solid red;
-  padding: -3rem;
+@media (max-width: 844px) {
+  footer #hr-container #first-footer #newsletter #email-botton button {
+    width: 104%;
+    border-radius: 3px;
+  }
 }
 
 footer #second-footer {
